@@ -419,7 +419,7 @@ body {
         transform: translateX(-3rem) skewX(0); } }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(1px) scale(1);
     backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
@@ -443,7 +443,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
-    transform: translateX(1px) scale(1); }
+    transform: translateX(-1rem) scale(1.1); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
